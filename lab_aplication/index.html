@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>
+		Lab aplication homework
+	</title>
+    <style>
+        .name{
+            color:white;
+            background-color:#c779c0 ;
+        }
+    </style>
+</head>
+
+<body bgcolor="#f7daf5">
+	<div align="center">
+		<h1 style="color:#3b0836">Register</h1>
+	</div>
+<form action="connection.php" method="post">
+	<table border="2" align="center">
+		<tr>
+			<td class="name">
+			<label>Full Name</label></td>
+			<td><input type="text" name="fullName"></td>
+		</tr>
+		<tr>
+			<td class="name">
+			<label>E-mail</label></td>
+			<td><input type="email" name="email"></td>
+		</tr>
+        <tr>
+			<td class="name">
+			<label>Gender</label></td>
+			<td><input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female</td>
+		</tr>
+	</table>
+    <div align="center"><br><td colspan="2" align="center" ><input type="submit" name="save" value="Complete" style="font-size:15px"></td></div>
+
+</form>
+</body>
+</html>
